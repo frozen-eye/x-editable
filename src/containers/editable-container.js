@@ -485,7 +485,7 @@ Applied as jQuery method.
         @default 'cancel'
         @since 1.1.1
         **/        
-        onblur: 'cancel',
+        onblur: 'ignore', /* changed from 'blur' to fix an issue with spell checker 'Grammarly' */
         
         /**
         Animation speed (inline mode only)
